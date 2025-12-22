@@ -1,0 +1,13 @@
+[project]
+name = "shopping-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "crewai>=1.6.1",
+    "crewai-tools>=1.6.1",
+    "firecrawl-py>=4.12.0",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.12.0",
+]
